@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donejs/done-serve.git"
+    "url": "git+https://github.com/donejs-next/done-serve.git"
   },
   "keywords": [
     "DoneJS"
@@ -24,18 +24,18 @@
   "author": "Bitovi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/donejs/done-serve/issues"
+    "url": "https://github.com/donejs-next/done-serve/issues"
   },
-  "homepage": "https://github.com/donejs/done-serve#readme",
+  "homepage": "https://github.com/donejs-next/done-serve#readme",
   "dependencies": {
     "commander": "^2.8.1",
     "compression": "^1.6.1",
-    "done-ssr-middleware": "^0.4.0-pre",
     "express": "^4.13.4",
     "http-proxy": "^1.13.2",
     "infanticide": "^1.0.1"
   },
-  "devDependencies": {
+  "peerDependencies": {
+    "done-ssr-middleware": "^0.4.0-pre",
     "can-component": "^3.0.0-pre.9",
     "can-list": "^3.0.0-pre.3",
     "can-map": "^3.0.0-pre.5",
@@ -50,7 +50,7 @@
     "socket.io": "^1.4.5",
     "socket.io-client": "^1.4.5",
     "spawn-mochas": "^1.1.0",
-    "steal-tools": "^0.15.0",
+    "steal-tools": "^1.0.0-rc2",
     "testdouble": "^1.4.1"
   }
 }
