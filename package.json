@@ -42,7 +42,7 @@
     "can-map-define": "*",
     "can-route": "*",
     "can-route-pushstate": "*",
-    "copy-dir": "0.0.8",
+    "copy-dir": "*",
     "done-autorender": "*",
     "jquery": "^2.2.3",
     "nock": "^7.2.2",
